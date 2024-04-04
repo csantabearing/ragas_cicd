@@ -9,7 +9,7 @@ from llama_index.core import (
 import os.path
 
 colbert_reranker = ColbertRerank(
-    top_n=5,
+    top_n=9,
     model="colbert-ir/colbertv2.0",
     tokenizer="colbert-ir/colbertv2.0",
     keep_retrieval_score=True,
